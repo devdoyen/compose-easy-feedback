@@ -26,14 +26,12 @@ object FeedbackSender {
         feedback: String
     ) {
         val deviceInfo = getDeviceInfo(context)
-        val emailContent = """
-            Feedback:
-            $feedback
-            
-            ---
-            Device Information:
-            $deviceInfo
-        """.trimIndent()
+        val emailContent = """Feedback:
+$feedback
+
+---
+Device Information:
+$deviceInfo"""
 
         val emailIntent = Intent(Intent.ACTION_SENDTO).apply {
             data = Uri.parse("mailto:")
