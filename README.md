@@ -29,7 +29,7 @@ Add the dependency to your app's `build.gradle.kts`:
 
 ```kotlin
 dependencies {
-    implementation("com.github.devdoyen:compose-easy-feedback:1.0.0")
+    implementation("com.github.devdoyen:compose-easy-feedback:v1.0.0")
 }
 ```
 
