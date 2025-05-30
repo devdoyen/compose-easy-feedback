@@ -155,7 +155,7 @@ Check out the included sample app for examples of:
 ## 🛠️ Requirements
 
 - **Minimum SDK**: 24 (Android 7.0)
-- **Compile SDK**: 34
+- **Compile SDK**: 35
 - **Jetpack Compose**: 1.6.8+
 - **Kotlin**: 2.0.0+
 
